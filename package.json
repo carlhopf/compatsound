@@ -1,0 +1,19 @@
+{
+  "name": "compatsound",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlhopf/compatsound.git"
+  },
+  "author": "Carl Hopf <npm@carlhopf.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/carlhopf/compatsound/issues"
+  },
+  "homepage": "https://github.com/carlhopf/compatsound#readme"
+}

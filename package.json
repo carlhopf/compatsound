@@ -15,5 +15,24 @@
   "bugs": {
     "url": "https://github.com/carlhopf/compatsound/issues"
   },
-  "homepage": "https://github.com/carlhopf/compatsound#readme"
+  "homepage": "https://github.com/carlhopf/compatsound#readme",
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1"
+  },
+  "dependencies": {
+    "howler": "^1.1.29",
+    "loglevel": "^1.4.1"
+  }
 }
